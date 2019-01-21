@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/publicT.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div class="all">
+        <!-- header部分 -->
+        <header>
+            <div class="wrap">
+                <div class="header_top">
+                    <div class="header_left">
+                        <img src="img/index/toptel_bg.png" alt="">
+                        <h3>全国统一24小时服务热线：</h3>
+                        <span>400-1010-889 </span>
+                        <span class="tel_1399">/ 13998887799</span>
+                    </div>
+                    <div class="header_right">
+                        <a href="javascript:;" class="header_rightA1">在线沟通：|&nbsp;&nbsp;<span></span></a>
+                        <a href="javascript:;" class="header_rightA2">联系我们&nbsp;&nbsp;| </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- nav部分 -->
+        <nav class="backgroungNo">
+            <div class="nav">
+                <div class="nav_left">
+                    <img src="img/index/logo.jpg" alt="">
+                </div>
+                <ul class="uls">
+                    <li>
+                        <a href="index.html">网站首页</a>
+                    </li>
+                    <li>
+                        <a href="product.html">产品展示</a>
+                        <div class="ulLi">
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="newsInfo.html">产品一</a></div>
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="newsInfo.html">产品二</a></div>
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="newsInfo.html">产品三</a></div>
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="newsInfo.html">产品四</a></div>
+                        </div>
+                    </li>
+                    <li><a href=Training.html>技术培训</a></li>
+                    <li><a href="javascript:;">招商引资</a></li>
+                    <li>
+                        <a href="jingdian.html">风光景点</a>
+                        <div class="ulLi">
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="javascript:;">九曲十八弯</a></div>
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="javascript:;">日月江山</a></div>
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="javascript:;">卡伦小镇</a></div>
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="javascript:;">博物馆</a></div>
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="javascript:;">百环度假村</a></div>
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="javascript:;">原始障子森林</a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">新闻资讯</a>
+                        <div class="ulLi">
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="javascript:;">产业新闻</a></div>
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="javascript:;">媒体报道</a></div>
+                            <div class="ulLi1"><i class="iconfont icon-xiangyou"></i><a href="javascript:;">科普园地</a></div>
+                        </div>
+                    </li>
+                    <li><a href="about.html">关于我们</a></li>
+                </ul>
+                <div class="nav_menu"></div>
+            </div>
+        </nav>
+    </div>
+    <!-- 返回顶部 -->
+    <div class="backTop">
+            <i class="iconfont icon-xiangyou"></i>
+        </div>
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script>
+    $(function(){
+        
+    //屏幕缩到600时的弹框
+    // $(window).resize(function(){
+    //     if(document.body.clientWidth<=700){
+    //     confirm("亲，再不能缩放啦，否则效果失效啦！");
+    //     window.resizeTo(document.body.clientWidth,700);
+    //     }
+    //     });
+    //返回顶部
+    $(window).scroll(function(){
+        if($(this).scrollTop()>$(window).height()){
+            $(".all").css({
+                "position":"fixed",
+                "top":"0",
+                "width":"100%",
+                "zIndex":"999"
+            })
+            $(".backTop").show();
+            $("nav").css({
+                "backgroundImage":"none",
+                "boxShadow":"0px 1px 10px 1px #d7d7d7"
+            });
+        }else{
+            $(".all").css({
+                "position":"relative"
+            })
+            $(".backTop").hide();
+        }
+    });
+    $(".backTop").click(function(){
+        $("body,html").animate({
+            scrollTop:0
+        },800);
+        return false
+    });
+    })
+</script>

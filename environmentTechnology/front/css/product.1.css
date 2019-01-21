@@ -1,0 +1,214 @@
+section {
+  background: url(../img/Training/mbg.jpg) repeat-x;
+  width: 100%;
+  padding: 50px 0px; }
+  section .section {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    section .section .section_left h3 {
+      display: inline-block;
+      color: white;
+      font-size: 34px;
+      margin-right: 12px; }
+    section .section .section_left span {
+      color: #157902;
+      font-size: 30px; }
+    section .section .section_right {
+      color: white;
+      font-size: 14px; }
+      section .section .section_right span {
+        width: 18px;
+        height: 16px;
+        background: url(../img/index/common_bg.gif) -185px -38px;
+        margin-right: 10px; }
+      section .section .section_right a {
+        color: white;
+        font-size: 14px; }
+
+.section_bottom {
+  width: 100%;
+  background: #f2f2f2;
+  height: 47px; }
+  .section_bottom .section_bottomTab {
+    width: 85%;
+    max-width: 1320px;
+    margin: 0 auto; }
+    .section_bottom .section_bottomTab ul li {
+      float: left;
+      height: 47px;
+      line-height: 47px;
+      padding: 0px 16px;
+      cursor: pointer;
+      font-size: 14px;
+      color: #454545; }
+      .section_bottom .section_bottomTab ul li:hover {
+        color: #1ad202; }
+    .section_bottom .section_bottomTab ul .fix {
+      background: white; }
+      .section_bottom .section_bottomTab ul .fix a {
+        color: #7ec318;
+        font-weight: 600; }
+
+.section_bottomSec {
+  width: 100%; }
+  .section_bottomSec .section_bottomSec_cen {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1320px; }
+    .section_bottomSec .section_bottomSec_cen .section1 {
+      display: none; }
+    .section_bottomSec .section_bottomSec_cen .section11 {
+      display: block; }
+    .section_bottomSec .section_bottomSec_cen .section1 {
+      clear: both; }
+      .section_bottomSec .section_bottomSec_cen .section1 h3 {
+        font-size: 38px;
+        color: #ff6600;
+        text-align: center;
+        margin: 48px 0px;
+        font-weight: 500; }
+      .section_bottomSec .section_bottomSec_cen .section1 span {
+        color: #999;
+        font-size: 16px;
+        margin-left: 5px; }
+      .section_bottomSec .section_bottomSec_cen .section1 .section1_right {
+        padding: 20px 0px; }
+        .section_bottomSec .section_bottomSec_cen .section1 .section1_right a {
+          margin-left: 20px;
+          font-size: 14px;
+          color: #444444; }
+    .section_bottomSec .section_bottomSec_cen .section1_bottom {
+      overflow: hidden;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .section_bottomSec .section_bottomSec_cen .section1_bottom .section1_bottom1 {
+        width: 18%;
+        min-width: 10%;
+        text-align: center;
+        overflow: hidden; }
+        .section_bottomSec .section_bottomSec_cen .section1_bottom .section1_bottom1 .sectionBox {
+          position: relative;
+          width: 100%;
+          overflow: hidden; }
+        .section_bottomSec .section_bottomSec_cen .section1_bottom .section1_bottom1 .section1_bottomImg {
+          width: 100%; }
+          .section_bottomSec .section_bottomSec_cen .section1_bottom .section1_bottom1 .section1_bottomImg img {
+            width: 100%;
+            height: 100%; }
+        .section_bottomSec .section_bottomSec_cen .section1_bottom .section1_bottom1 h3 {
+          font-weight: 100;
+          font-size: 14px;
+          color: #565656;
+          margin: 20px 0px; }
+        .section_bottomSec .section_bottomSec_cen .section1_bottom .section1_bottom1 .section1_bottomBg {
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          position: absolute;
+          top: 170px;
+          left: 0px;
+          background: rgba(12, 153, 12, 0.8);
+          color: white;
+          font-size: 14px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+    .section_bottomSec .section_bottomSec_cen .section1_bottom1:nth-of-type(5n) {
+      margin-right: 0px; }
+
+article {
+  width: 100%;
+  margin-top: 35px; }
+  article .article {
+    width: 85%;
+    margin: 0 auto; }
+    article .article .article1 {
+      clear: both; }
+      article .article .article1 .p_first {
+        padding: 5px 17px;
+        color: #999;
+        font-size: 12px;
+        border: 1px solid #f2f2f2;
+        display: inline-block; }
+      article .article .article1 .article1_bottom {
+        text-align: center;
+        margin: 15px 0px;
+        float: left; }
+        article .article .article1 .article1_bottom .p_one {
+          width: 79px;
+          height: 79px;
+          margin: 20px auto;
+          cursor: pointer; }
+        article .article .article1 .article1_bottom .p_1 {
+          background: url(../img/Training/about_bg_01.gif) 0px 0px; }
+          article .article .article1 .article1_bottom .p_1:hover {
+            background: url(../img/Training/about_bg_01.gif) 0px -79px; }
+        article .article .article1 .article1_bottom .p_2 {
+          background: url(../img/Training/about_bg_01.gif) -79px 0px; }
+          article .article .article1 .article1_bottom .p_2:hover {
+            background: url(../img/Training/about_bg_01.gif) -79px -79px; }
+        article .article .article1 .article1_bottom .p_3 {
+          background: url(../img/Training/about_bg_01.gif) -158px 0px; }
+          article .article .article1 .article1_bottom .p_3:hover {
+            background: url(../img/Training/about_bg_01.gif) -158px -79px; }
+        article .article .article1 .article1_bottom h3 {
+          color: #454545;
+          font-size: 18px;
+          font-weight: 100;
+          margin: 17px 0px; }
+        article .article .article1 .article1_bottom .p_two {
+          color: #444444;
+          font-size: 14px; }
+      article .article .article1 .article1_bottom2 {
+        margin: 0 28%; }
+
+.bg {
+  width: 100%;
+  height: 250px;
+  background: url(../img/Training/footerbg.jpg) center top repeat-x;
+  padding-bottom: 43px;
+  padding-top: 10px;
+  clear: both; }
+  .bg .bg_cen {
+    width: 85%;
+    margin: 0 auto;
+    color: #454545; }
+    .bg .bg_cen h3 {
+      font-size: 18px;
+      padding: 45px 0px 40px;
+      font-weight: 100; }
+    .bg .bg_cen p a {
+      display: inline-block;
+      width: 32px;
+      height: 32px; }
+    .bg .bg_cen p .more {
+      background: url(../img/Training/icons_1_32.png) 0px 0px; }
+    .bg .bg_cen p .qqkj {
+      background: url(../img/Training/icons_1_32.png) 0px -51px; }
+    .bg .bg_cen p .xlweibo {
+      background: url(../img/Training/icons_1_32.png) 0px -103px; }
+    .bg .bg_cen p .txweibo {
+      background: url(../img/Training/icons_1_32.png) 0px -258px; }
+    .bg .bg_cen p .renren {
+      background: url(../img/Training/icons_1_32.png) 0px -207px; }
+    .bg .bg_cen p .chat {
+      background: url(../img/Training/icons_1_32.png) 0px -1612px; }
+    .bg .bg_cen p .kaixin {
+      background: url(../img/Training/icons_1_32.png) 0px -311px; }
+    .bg .bg_cen p .qq {
+      background: url(../img/Training/icons_1_32.png) 0px -2652px; }
+    .bg .bg_cen p .baidutie {
+      background: url(../img/Training/icons_1_32.png) 0px -728px; }
+    .bg .bg_cen p .baidu {
+      background: url(../img/Training/icons_1_32.png) 0px -3123px; }
+    .bg .bg_cen p .copy {
+      background: url(../img/Training/icons_1_32.png) 0px -2289px; }
+    .bg .bg_cen span {
+      display: inline-block;
+      padding-top: 20px;
+      font-size: 12px; }

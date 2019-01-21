@@ -1,0 +1,156 @@
+body,
+p,
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+td,
+input,
+select,
+option,
+textarea {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  display: inline-block; }
+
+ul {
+  list-style: none; }
+
+ol {
+  list-style: none; }
+
+i {
+  font-style: normal;
+  display: inline-block; }
+
+span {
+  display: inline-block; }
+
+img {
+  border: 0; }
+
+body, html {
+  height: 100%; }
+
+header {
+  width: 100%;
+  background: #f3f3f3; }
+
+.wrap {
+  width: 1320px;
+  margin: 0 auto; }
+
+.header_top {
+  overflow: hidden;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between; }
+  .header_top .header_left h3 {
+    display: inline-block;
+    color: #ff5500;
+    font-size: 16px;
+    margin-left: 16px; }
+  .header_top .header_left span {
+    color: #7ec347; }
+  .header_top .header_right {
+    font-size: 12px;
+    color: #dcdcdc; }
+    .header_top .header_right a {
+      font-size: 12px;
+      color: #828282;
+      margin-left: 10px; }
+      .header_top .header_right a:hover {
+        color: #1ad202; }
+      .header_top .header_right a span {
+        width: 25px;
+        height: 22px;
+        vertical-align: middle;
+        background: url(../img/index/common_bg.gif) -22px 2px no-repeat; }
+
+nav {
+  width: 100%;
+  background-color: white;
+  background-image: url(../img/index/nav_bg2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 112%; }
+
+.nav {
+  width: 1320px;
+  margin: 0 auto;
+  padding: 15px 0px;
+  display: flex; }
+  .nav .nav_left {
+    margin-right: 100px;
+    cursor: pointer; }
+  .nav .uls {
+    display: flex;
+    flex: 1;
+    margin-top: 10px; }
+    .nav .uls li {
+      position: relative;
+      padding-top: 10px;
+      margin-right: 56px;
+      text-align: center; }
+      .nav .uls li a {
+        font-size: 14px;
+        color: #000;
+        padding: 10px; }
+      .nav .uls li:hover {
+        background: #1ad202;
+        border-radius: 2px; }
+      .nav .uls li:hover .ulLi {
+        display: block; }
+      .nav .uls li:hover a {
+        color: white; }
+      .nav .uls li span {
+        display: none; }
+      .nav .uls li .ulLi {
+        position: absolute;
+        left: 0;
+        top: 58px;
+        display: none;
+        z-index: 999; }
+        .nav .uls li .ulLi .ulLi1 {
+          background: rgba(126, 195, 24, 0.9);
+          text-align: left;
+          white-space: nowrap; }
+          .nav .uls li .ulLi .ulLi1 .icon-xiangyou {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            color: white;
+            padding-left: 5px; }
+          .nav .uls li .ulLi .ulLi1 a {
+            padding: 17px 17px 17px 10px;
+            color: white; }
+          .nav .uls li .ulLi .ulLi1:hover {
+            background: black; }
+
+.backTop {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background: #62aa00;
+  color: white;
+  font-weight: 600;
+  position: fixed;
+  right: 0px;
+  bottom: 10px;
+  display: none;
+  cursor: pointer; }
+  .backTop i {
+    font-size: 45px;
+    transform: rotate(-90deg); }
+  .backTop:hover {
+    background: #1bd100; }
